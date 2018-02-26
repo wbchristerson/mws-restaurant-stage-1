@@ -106,9 +106,11 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  height: 50px;
-  background-color: #3397DB;
-  align-items: center;
+  /* height: 50px; */
+	/* height: 500px; */
+  /* background-color: #3397DB; */
+  background-color: green;
+  /* align-items: center; */
 }
 .filter-options h2 {
   color: white;
@@ -190,7 +192,8 @@ nav h1 a {
   z-index: 1000;
 }
 .inside #map-container {
-  background: blue none repeat scroll 0 0;
+  /* background: blue none repeat scroll 0 0; */
+  background: green none repeat scroll 0 0;
   height: 87%;
   position: fixed;
   right: 0;
