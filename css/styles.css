@@ -57,10 +57,11 @@ nav {
 }
 nav h1 {
   margin: auto;
+	padding-top: 2%;
 }
 nav h1 a {
   color: #fff;
-  font-size: 14pt;
+  font-size: 18pt;
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -109,6 +110,7 @@ nav h1 a {
   /* height: 50px; */
 	/* height: 500px; */
   background-color: #3397DB;
+	/* background-color: #ff3456; */
   /* background-color: green; */
   /* align-items: center; */
 }
@@ -134,6 +136,7 @@ nav h1 a {
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
+  /* background-color: purple; */
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 60px;
