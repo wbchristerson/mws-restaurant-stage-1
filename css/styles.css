@@ -320,6 +320,12 @@ nav h1 a {
 		margin-right: auto;
 		/* margin-bottom: auto; */
 		text-align: center;
+		padding-top: 4%;
+		font-size: 1.25rem;
+	}
+
+	.filter-options {
+		height: 100%;
 	}
 
 	#neighborhoods-select {
@@ -334,7 +340,10 @@ nav h1 a {
 		margin-left: auto;
 		margin-right: auto;
 		width: 50%;
-		margin-bottom: 5%;
+	}
+
+	h2 {
+		margin-bottom: 0;
 	}
 
 }
