@@ -259,7 +259,7 @@ nav h1 a {
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
+  padding: 20px 20px 20px;
   position: relative;
   width: 85%;
 }
@@ -402,6 +402,12 @@ nav h1 a {
 	.inside #footer {
 		bottom: 0;
 		position: absolute;
-		width: 50%;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1180px) {
+	#breadcrumb {
+		width: 100%;
 	}
 }
