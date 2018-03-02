@@ -212,9 +212,11 @@ nav h1 a {
   margin: 15px 0 30px;
   text-transform: uppercase;
   line-height: 1.1;
+	text-align: center;
 }
 #restaurant-img {
 	width: 90%;
+	margin: 0 5%;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -226,7 +228,8 @@ nav h1 a {
   font-size: 12pt;
   font-weight: 300;
   letter-spacing: 10px;
-  margin: 0 0 20px;
+  margin: 0 auto 20px;
+  /* margin: 0 0 20px; */
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
@@ -262,6 +265,7 @@ nav h1 a {
   padding: 20px 20px 20px;
   position: relative;
   width: 85%;
+	border-radius: 60px 0 60px 0;
 }
 #reviews-list li p {
   margin: 0 0 10px;
@@ -302,6 +306,9 @@ nav h1 a {
 		margin-left: auto;
 		margin-right: auto;
 		width: 50%;
+	}
+	#restaurant-name {
+		text-align: center;
 	}
 }
 
@@ -404,10 +411,44 @@ nav h1 a {
 		position: absolute;
 		width: 100%;
 	}
+	#restaurant-container {
+		width: 40%;
+	}
 }
 
 @media screen and (max-width: 1180px) {
 	#breadcrumb {
-		width: 100%;
+		width: 92%;
+	}
+	#breadcrumb li {
+		font-size: 15pt;
+	}
+	#restaurant-container {
+		padding: 2% 5% 3%;
+		width: 90%;
+	}
+	#reviews-container {
+		width: 90%;
+		/* padding: 30px 40px 20px; */
+		padding: 0;
+		margin: 0 auto;
+	}
+	#reviews-list li {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#reviews-list li {
+		border: 2px solid black;
+	}
+	#restaurant-address {
+		font-size: 20pt;
+	}
+	#restaurant-hours td {
+		font-size: large;
+	}
+	#breadcrumb {
+		width: 78%;
 	}
 }
