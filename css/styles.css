@@ -327,7 +327,8 @@ nav h1 a {
 	}
 }
 
-@media screen and (min-width: 431px) {
+/* @media screen and (min-width: 431px) { */
+@media screen and (min-width: 675px) {
 	#restaurants-list .restaurant-img {
 		width: 100%;
 	}
@@ -350,7 +351,8 @@ nav h1 a {
 	}
 }
 
-@media screen and (max-width: 431px) {
+/* @media screen and (max-width: 431px) { */
+@media screen and (max-width: 675px) {
 	#restaurant-list {
 		padding-left: 0;
 		padding-right: 0;
