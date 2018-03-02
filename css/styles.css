@@ -352,4 +352,40 @@ nav h1 a {
 	#restaurants-list .restaurant-img {
 		width: 40%;
 	}
+	.filter-options h2 {
+		width: 50%;
+		height: 10%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		text-align: center;
+		padding-top: 1%;
+		font-size: 1.25rem;
+	}
+	.container {
+		margin-left: 20%;
+		margin-right: 20%;
+		display: flex;
+		justify-content: space-between;
+	}
+	#neighborhoods-select {
+		/* display: inline-block;
+		margin-left: auto; */
+		/* display: block; */
+		/* margin-left: auto;
+		margin-right: auto; */
+		/* float: left; */
+		/* width: 50%; */
+	}
+
+	#cuisines-select {
+		/* display: inline-block;
+		margin-right: auto; */
+		/* display: block; */
+		/* margin-left: auto;
+		margin-right: auto; */
+		/* float: right; */
+		/* width: 50%; */
+	}
 }
