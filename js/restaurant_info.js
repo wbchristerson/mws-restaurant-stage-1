@@ -117,17 +117,33 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
  */
 createReviewHTML = (review) => {
   const li = document.createElement('li');
-  const name = document.createElement('p');
-  name.innerHTML = review.name;
+  const name = document.createElement('div');
+  const nameParagraph = document.createElement('p');
+  const dateParagraph = document.createElement('p');
+  const rating = document.createElement('div');
+  const ratingParagraph = document.createElement('p');
+  const breakElemA = document.createElement('br');
+  const breakElemB = document.createElement('br');
+  name.className = "title-style";
+  nameParagraph.className = "name-style";
+  nameParagraph.innerHTML = review.name;
+  dateParagraph.className = "date-style";
+  dateParagraph.innerHTML = review.date;
+  name.appendChild(nameParagraph);
+  name.appendChild(dateParagraph);
   li.appendChild(name);
 
-  const date = document.createElement('p');
-  date.innerHTML = review.date;
-  li.appendChild(date);
+  // const date = document.createElement('p');
+  // date.innerHTML = review.date;
+  // li.appendChild(date);
 
-  const rating = document.createElement('p');
-  rating.innerHTML = `Rating: ${review.rating}`;
+  // const rating = document.createElement('p');
+  ratingParagraph.innerHTML = `Rating: ${review.rating}`;
+  ratingParagraph.className = "rating-style";
+  rating.appendChild(ratingParagraph);
   li.appendChild(rating);
+  li.appendChild(breakElemA);
+  li.appendChild(breakElemB);
 
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;
