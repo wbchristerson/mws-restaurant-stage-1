@@ -274,7 +274,7 @@ nav h1 a {
 	border-radius: 20px 0;
 }
 #reviews-list li p {
-  margin: -2px 0 10px;
+  margin: -3px 0 10px;
 }
 #restaurant-hours td {
   color: #666;
@@ -289,10 +289,12 @@ nav h1 a {
 .name-style {
 	float: left;
 	color: #fff;
+	font-size: 15px;
 }
 .date-style {
 	float: right;
 	color: #c5d2e5;
+	font-size: 15px;
 }
 .rating-style {
 	width: 100%;
@@ -300,6 +302,11 @@ nav h1 a {
 }
 .rating-par-style {
 	display: inline-block;
+	background: orange;
+	border-radius: 3px;
+	padding: 2px 9px;
+	color: white;
+	font-weight: 500;
 }
 
 /* @media screen and (min-width: 1200px) {
