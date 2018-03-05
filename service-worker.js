@@ -1,6 +1,7 @@
 let staticCacheName = 'restaurant-cache-v1';
 
 self.addEventListener('install', function(event) {
+  // files to be added to cache automatically upon loading the home page
   let urlsToCache = [
     '/',
     'css/styles.css',
@@ -27,6 +28,7 @@ self.addEventListener('install', function(event) {
   );
 });
 
+// add page resources to the cache when they have not already been visited
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request).then(function(response) {
