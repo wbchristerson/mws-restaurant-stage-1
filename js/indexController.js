@@ -3,10 +3,10 @@
   if (navigator.serviceWorker) {
     navigator.serviceWorker.register('service-worker.js')
     .then(function() {
-      console.log("Registered!!!!!");
+      console.log("Registration succeeded.");
     })
     .catch(function(error) {
-      console.log("Uh-oh. Registration failed:", error);
+      console.log("Registration failed:", error);
     });
   }
 })();
