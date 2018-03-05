@@ -121,11 +121,9 @@ createReviewHTML = (review) => {
   const name = document.createElement('div');
   const nameParagraph = document.createElement('p');
   const dateParagraph = document.createElement('p');
-  // const rating = document.createElement('div');
   const ratingDiv = document.createElement('div');
   const ratingParagraph = document.createElement('p');
-  // const breakElemA = document.createElement('br');
-  // const breakElemB = document.createElement('br');
+
   name.className = "title-style";
   nameParagraph.className = "name-style";
   nameParagraph.innerHTML = review.name;
@@ -135,18 +133,11 @@ createReviewHTML = (review) => {
   name.appendChild(dateParagraph);
   li.appendChild(name);
 
-  // const date = document.createElement('p');
-  // date.innerHTML = review.date;
-  // li.appendChild(date);
-
-  // const rating = document.createElement('p');
   ratingParagraph.innerHTML = `RATING: ${review.rating}`;
   ratingParagraph.className = "rating-par-style";
   ratingDiv.className = "rating-style";
   ratingDiv.appendChild(ratingParagraph);
-  li.appendChild(ratingDiv); //
-  // li.appendChild(breakElemA);
-  // li.appendChild(breakElemB);
+  li.appendChild(ratingDiv);
 
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;

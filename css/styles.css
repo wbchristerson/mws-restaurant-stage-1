@@ -107,11 +107,7 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-	/* height: 120%; */
-  /* height: 50px; */
-	/* height: 500px; */
   background-color: #3397DB;
-  /* align-items: center; */
 }
 .filter-options h2 {
   color: white;
@@ -146,7 +142,6 @@ nav h1 a {
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
-  /* background-color: purple; */
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 60px;
@@ -160,7 +155,6 @@ nav h1 a {
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: left;
-  /* width: 270px; */
 	width: 90%;
 	display: flex;
 	flex-direction: column;
@@ -169,16 +163,9 @@ nav h1 a {
 #restaurants-list .restaurant-img {
   background-color: #ccc;
   display: block;
-  /* margin: 0; */
 	margin-top: 3%;
 	margin-left: auto;
 	margin-right: auto;
-	/* width: 40%; */
-  /* max-width: 100%; */
-	/* max-width: 40%; */
-  /* min-height: 248px; */
-	/* max-height: 30% */
-  /* min-width: 100%; */
 }
 #restaurants-list li h1 {
   color: #f18200;
@@ -201,16 +188,11 @@ button {
   color: #fff;
   font-size: 10pt;
   margin: 15px auto 0;
-	/* float: none; */
   padding: 8px 30px 10px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-	/* display: inline-block; */
 	display: block;
-	/* margin-left: auto; */
-	/* margin-right: auto; */
-	/* width: 40%; */
 }
 
 /* ====================== Restaurant Details ====================== */
@@ -241,7 +223,6 @@ button {
   font-weight: 300;
   letter-spacing: 10px;
   margin: 0 auto 20px;
-  /* margin: 0 0 20px; */
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
@@ -327,12 +308,6 @@ button {
 	outline: 4px solid #e83612;
 }
 
-/* @media screen and (min-width: 1200px) {
-	#restaurants-list li {
-
-	}
-} */
-
 @media screen and (max-width: 630px) {
 	.filter-options h2 {
 		width: 50%;
@@ -340,7 +315,6 @@ button {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		/* margin-bottom: auto; */
 		text-align: center;
 		padding-top: 4%;
 		font-size: 1.25rem;
@@ -382,7 +356,6 @@ button {
 	}
 	#reviews-list li p {
 		margin: 1px 0 10px;
-		/* margin: 5px 0 10px; */
 		font-size: 12px;
 	}
 	.rating-style {
@@ -425,7 +398,7 @@ button {
 		width: 100%;
 		margin-top: 10%;
 	}
-	#restaurants-list li a
+	#restaurants-list li a,
 	button {
 		width: 80%;
 	}
