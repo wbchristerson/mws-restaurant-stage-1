@@ -36,8 +36,11 @@ self.addEventListener('fetch', function(event) {
         return response;
       }
       return fetch(event.request).then(function(response) {
+        // check whether event request was resolved successfully
         if (response.status !== 404) {
           return caches.open(staticCacheName).then(function(cache) {
+            // check that the request is not for one of the image files which
+            // are already cached
             if (event.request.url.indexOf('img') < 0) {
               cache.put(event.request.url, response.clone());
             }
