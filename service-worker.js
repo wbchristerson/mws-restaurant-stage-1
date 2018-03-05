@@ -1,3 +1,10 @@
+/*
+ * Citation: in completing this section of the assignment, I referenced the
+ * Udacity course materials as well as the code and information provided by
+ * this page: https://developers.google.com/web/ilt/pwa/lab-caching-files-with-service-worker
+ *
+ */
+
 let staticCacheName = 'restaurant-cache-v1';
 
 self.addEventListener('install', function(event) {
