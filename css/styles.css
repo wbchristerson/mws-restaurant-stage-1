@@ -319,6 +319,13 @@ button {
 	color: white;
 	font-weight: 500;
 }
+#neighborhoods-select:focus,
+#cuisines-select:focus {
+	outline: 4px solid #e83612;
+}
+*:focus {
+	outline: 4px solid #e83612;
+}
 
 /* @media screen and (min-width: 1200px) {
 	#restaurants-list li {
