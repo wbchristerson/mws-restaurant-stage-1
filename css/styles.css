@@ -496,6 +496,9 @@ button {
 	#restaurant-container {
 		width: 40%;
 	}
+	nav {
+		height: 60px;
+	}
 }
 
 @media screen and (max-width: 1180px) {
