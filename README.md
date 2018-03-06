@@ -31,18 +31,18 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 
 2. With your server running, visit the site: `http://localhost:8000`
 
-The main page on a desktop device:
-![The top of the main page](/img/main_page_top.png)
+The main page on a desktop device:</br>
+![The top of the main page](/img/main_page_top.png)  
 ![The bottom of the main page](/img/main_page_bottom.png)
 
-The main page on a mobile device:
-![The top of the main page](/img/main_mobile_top.png)
-![The bottom of the main page](/img/main_mobile_bottom.png)
+The main page on a mobile device:</br>
+![The top of the main page](/img/main_mobile_top.png)  
+![The bottom of the main page](/img/main_mobile_bottom.png)  
 
-The restaurant page on a desktop device:
-![The top of the restaurant page](/img/restaurant_page_top.png)
+The restaurant page on a desktop device:</br>
+![The top of the restaurant page](/img/restaurant_page_top.png)  
 ![The bottom of the restaurant page](/img/restaurant_page_bottom.png)
 
-The restaurant page on a mobile device:
-![The top of the restaurant page](/img/restaurant_mobile_top.png)
-![The bottom of the restaurant page](/img/restaurant_mobile_bottom.png)
+The restaurant page on a mobile device:</br>
+![The top of the restaurant page](/img/restaurant_mobile_top.png)  
+![The bottom of the restaurant page](/img/restaurant_mobile_bottom.png)  
