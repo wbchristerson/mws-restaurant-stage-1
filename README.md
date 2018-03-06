@@ -1,28 +1,32 @@
 # Mobile Web Specialist Certification Course
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
+#### _First Stage Restaurant Reviews Application_
 
 ## Project Overview: Stage 1
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+This is a web-based application developed by Udacity which includes a page listing several restaurants, information about those restaurants, and customer reviews. As an exercise in enhancing responsiveness, providing accessibility features, and employing the use of a service worker, I have:
+- Added additional responsiveness to make the website viewable on a variety of device screen sizes.
+- Altered the layout to avoid overlapping elements in the DOM.
+- Included alt tags, ARIA roles, and ARIA labels to make the website more accessible.
+- Provided page focus for many elements within the application to enhance the user experience for visually-impaired users.
+- Included a service worker to cache page content and files in accordance with an "Offline First" approach to web development.
 
-### Specification
+### Running The Application
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+To run the application, you can clone the repository using the following terminal command:
+```
+git clone https://github.com/udacity/mws-restaurant-stage-1.git
+```
+Alternatively, you can follow the below instructions to download to a hard drive:
+* Click the green "Clone or download" button above then choose "Download ZIP".
+* Find the folder `mws-restaurant-stage-1-master` in your Downloads folder or wherever it was placed on your device.
+* Right click and choose "Extract All".
+* Open your browser and use `Ctrl + O` (for Windows machines) to open the file selector on your device.
 
-### What do I do from here?
+You will need to use a terminal for the server for the project. Once in the terminal:
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+1. In the project folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
 In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and make start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
-
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
-
-
+2. With your server running, visit the site: `http://localhost:8000`
