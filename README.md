@@ -35,16 +35,20 @@ The main page on a desktop device:</br>
 ![The top of the main page](/img/main_page_top.png)
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
 ![The bottom of the main page](/img/main_page_bottom.png)
 
 The main page on a mobile device:</br>
-![The top of the main page](/img/main_mobile_top.png)
-![The bottom of the main page](/img/main_mobile_bottom.png)  
+![The top of the main page](/img/main_mobile_top.png)       ![The bottom of the main page](/img/main_mobile_bottom.png)  
 
 The restaurant page on a desktop device:</br>
 ![The top of the restaurant page](/img/restaurant_page_top.png)</br>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ![The bottom of the restaurant page](/img/restaurant_page_bottom.png)
 
 The restaurant page on a mobile device:</br>
-![The top of the restaurant page](/img/restaurant_mobile_top.png)
-![The bottom of the restaurant page](/img/restaurant_mobile_bottom.png)  
+![The top of the restaurant page](/img/restaurant_mobile_top.png)       ![The bottom of the restaurant page](/img/restaurant_mobile_bottom.png)  
