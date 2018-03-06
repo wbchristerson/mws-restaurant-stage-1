@@ -32,7 +32,9 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 2. With your server running, visit the site: `http://localhost:8000`
 
 The main page on a desktop device:</br>
-![The top of the main page](/img/main_page_top.png)</br>
+![The top of the main page](/img/main_page_top.png)
+&nbsp;
+&nbsp;
 ![The bottom of the main page](/img/main_page_bottom.png)
 
 The main page on a mobile device:</br>
