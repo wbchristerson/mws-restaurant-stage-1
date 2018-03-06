@@ -16,9 +16,10 @@ body {
 	position:relative;
 }
 ul,
-li {
+li,
+ol {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
+	font-size: 18px;
 	color: #333;
 }
 a {
@@ -76,11 +77,13 @@ nav {
   background-color: #252831;
   text-align:center;
 }
-nav h1 {
+nav h1,
+nav h2 {
   margin: auto;
 	padding-top: 2%;
 }
-nav h1 a {
+nav h1 a,
+nav h2 a {
   color: #fff;
   font-size: 18pt;
   font-weight: 200;
@@ -88,12 +91,13 @@ nav h1 a {
   text-transform: uppercase;
 }
 #breadcrumb {
-  padding: 10px 40px 16px;
+  padding: 10px 0 16px;
   list-style: none;
   background-color: #eee;
   font-size: 17px;
-  margin: 0;
-  width: calc(50% - 80px);
+  /* margin: 0; */
+  /* width: calc(50% - 80px); */
+	width: 100%;
 }
 
 /* Display list items side by side */
@@ -223,7 +227,7 @@ button {
   font-size: 20pt;
   font-weight: 200;
   letter-spacing: 0;
-  margin: 15px 0 30px;
+  margin: 20px 0 30px;
   text-transform: uppercase;
   line-height: 1.1;
 	text-align: center;
@@ -328,6 +332,13 @@ button {
 *:focus {
 	outline: 4px solid #e83612;
 }
+#breadcrumb-container {
+	position: relative;
+}
+.breadcrumb-arrangement {
+	position: absolute;
+	bottom: 0;
+}
 
 @media screen and (max-width: 630px) {
 	.filter-options h2 {
@@ -396,11 +407,17 @@ button {
 	#restaurants-list li {
 		width: 25%;
 	}
+	#restaurant-name {
+		margin-top: 40px;
+	}
 }
 
 @media screen and (max-width: 1175px) {
 	#restaurants-list li {
 		width: 35%;
+	}
+	#breadcrumb li {
+		font-size: 18px;
 	}
 }
 
@@ -446,6 +463,9 @@ button {
 		display: flex;
 		justify-content: space-between;
 	}
+	#breadcrumb {
+		margin: 0;
+	}
 }
 
 @media screen and (min-width: 1180px) {
@@ -480,10 +500,10 @@ button {
 
 @media screen and (max-width: 1180px) {
 	#breadcrumb {
-		width: 90%;
+		width: 100%;
 	}
 	#breadcrumb li {
-		font-size: 15pt;
+		font-size: 18px;
 	}
 	#restaurant-container {
 		padding: 2% 5% 3%;
@@ -501,12 +521,27 @@ button {
 
 @media screen and (max-width: 600px) {
 	#breadcrumb {
-		width: 78%;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	nav {
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	nav {
+		height: 60px;
 	}
 }
 
 @media screen and (max-width: 365px) {
 	#restaurant-hours td {
 		font-size: 12px;
+	}
+	#breadcrumb {
+		width: 100%;
 	}
 }
