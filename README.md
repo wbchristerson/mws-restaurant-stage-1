@@ -1,8 +1,8 @@
-# Mobile Web Specialist Certification Course
+# Restaurant Reviews Application
 ---
 #### _First Stage Restaurant Reviews Application_
 
-## Project Overview: Stage 1
+## Project Overview
 
 This is a web-based application developed by Udacity which includes a page listing several restaurants, information about those restaurants, and customer reviews. As an exercise in enhancing responsiveness, providing accessibility features, and employing the use of a service worker, I have:
 - Added additional responsiveness to make the website viewable on a variety of device screen sizes.
@@ -25,14 +25,18 @@ Alternatively, you can follow the below instructions to download to a hard drive
 
 You will need to use a terminal for the server for the project. Once in the terminal:
 
-1. In the project folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
+1. In the project folder, start up a simple HTTP server to serve up the site files on your local computer (if you do not know how to, see the next short paragraph). Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. Note: For some users of Python 3.x, the command will actually be `python -m http.server 8000` (i.e. the command used would be `python` rather than `python3`). If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
 
 2. With your server running, visit the site: `http://localhost:8000`
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
 The main page on a desktop device:</br>
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 ![The top of the main page](/img/main_page_top.png)
